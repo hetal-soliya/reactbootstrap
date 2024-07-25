@@ -1,9 +1,6 @@
 import React from 'react'
 import {Container} from 'react-bootstrap'
 import { FaStar } from "react-icons/fa";
-import Image25 from '../assets/asset_25.jpeg';
-import Image26 from '../assets/asset_26.jpeg';
-import Image27 from '../assets/asset_27.jpeg';
 export default function Image_part() {
   return (
     <>
@@ -14,7 +11,7 @@ export default function Image_part() {
       </Container>
       <Container>
         <div className='row g-5 '>
-          <div className='col-xl-4 col-sm-12 col-md-6 position-relative'> <img src={Image25}  className="img-fluid rounded-5" />
+          <div className='col-xl-4 col-sm-12 col-md-6 position-relative'> <img src="/asset/asset_25.jpeg" className="img-fluid rounded-5" />
             <div className='position-absolute  bottom-0 m-4  me-5  border border-1 rounded-5 bg-light '>
               <div className='icon_btn '>
                 <button className='bg-primary rounded-5 text-light border-0 position-absolute end-0 me-4 px-2 pb-1'>
@@ -28,7 +25,7 @@ export default function Image_part() {
               </div>
             </div>
           </div>
-          <div className='col-xl-4 col-sm-12 col-md-6 position-relative'> <img src={Image26}  className="img-fluid rounded-5" />
+          <div className='col-xl-4 col-sm-12 col-md-6 position-relative'> <img src="/asset/asset_26.jpeg"  className="img-fluid rounded-5" />
             <div className='position-absolute bottom-0 m-4  me-5   border border-1 rounded-5 bg-light  '>
               <div className='icon_btn '>
                 <button className='bg-primary rounded-5 text-light border-0 position-absolute end-0 me-4  px-2 pb-1 '>
@@ -42,7 +39,7 @@ export default function Image_part() {
               </div>
             </div>
           </div>
-          <div className='col-xl-4 col-sm-12 col-md-6 position-relative  '> <img src={Image27}  className="img-fluid rounded-5" />
+          <div className='col-xl-4 col-sm-12 col-md-6 position-relative  '> <img src="/asset/asset_27.jpeg"  className="img-fluid rounded-5" />
             <div className='position-absolute bottom-0 m-4 me-5 border border-1 rounded-5 bg-light '>
               <div className='icon_btn '>
                 <button className='bg-primary rounded-5 text-light border-0 position-absolute end-0 me-4  px-2 pb-1 '>
